@@ -2,22 +2,22 @@
 
 This repository contains code for SPAD (Single-Photon Avalanche Diode) dual transient imaging.
 
----
 
 ## Introduction
 
 Dual Transient Imaging is a novel transient imaging method inspired by dual photography that reconstructs light propagation from the perspective of the illumination source using only a single-pixel SPAD (Single-Photon Avalanche Diode) sensor and a Digital Micromirror Device (DMD). 
 
----
 
 ## Examples
 
-![Example 1](結果/bunnyfinal50x50_dual_image.png)
+<p align="center">
+  <img src="結果/bunnyfinal50x50_dual_image.png" alt="Example 1" width="50%">
+</p>
 
-![Example 2](結果/two50x50-1_dual_image.png)
+<p align="center">
+  <img src="結果/two50x50-1_dual_image.png" alt="Example 2" width="50%">
+</p>
 
-
----
 
 ## Requirements
 
@@ -36,7 +36,6 @@ Dual Transient Imaging is a novel transient imaging method inspired by dual phot
 - `imageio`  
 - `tqdm`  
 
----
 
 ## File Overview
 
@@ -80,7 +79,6 @@ Dual Transient Imaging is a novel transient imaging method inspired by dual phot
   3. Adjust parameters as needed.
   4. Run the code; a `.mp4` video will be generated in the `data` folder.
 
----
 
 ## Notes
 - Always ensure laser safety when running experiments.  
